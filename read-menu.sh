@@ -12,7 +12,7 @@ read -p "Enter selection [0-3] > "
 
 if [[ $REPLY =~ ^[0-3]$ ]]; then
 	if [[ $REPLY == 0 ]]; then
-		echo "Program terminated."
+		echo "Program terminated now."
 		exit
 	fi
 	if [[ $REPLY == 1 ]]; then
